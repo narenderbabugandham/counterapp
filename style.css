@@ -1,0 +1,65 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to right, #94aecc, #e7c9b1); /* Gradient background */
+}
+
+.counter-container {
+    text-align: center;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    padding: 40px;
+    width: 400px; /* Fixed width for better alignment */
+}
+
+h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#count-display {
+    font-size: 64px;
+    margin: 20px 0;
+    color: #ff4757; /* Bright red color */
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    padding: 15px 25px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    color: white; /* White text for buttons */
+}
+
+#increment {
+    background-color: #5cdd60; /* Green for increment */
+}
+
+#decrement {
+    background-color: #e74c3c; /* Red for decrement */
+}
+
+#reset {
+    background-color: #3498db; /* Blue for reset */
+}
+
+button:hover {
+    transform: translateY(-2px); /* Slight lift effect on hover */
+}
+
+button:active {
+    transform: translateY(1px); /* Slight press effect */
+}
